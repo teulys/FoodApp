@@ -17,20 +17,25 @@
             android:id="@+id/ivFood"
             android:src="@mipmap/ic_launcher"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tvFoodName"
-            android:textStyle="bold"
-            android:layout_marginLeft="10dp"
-            android:layout_gravity="center"
-            android:text="Filete"/>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvFoodName"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Filete"/>
+        </LinearLayout>
     </LinearLayout>
 
-    <view
+    <View
         android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:backgroundTint="@color/colorAccent"
+        android:layout_height="5dp"
+        android:background="@color/colorAccent"
         />
 
 </LinearLayout>
